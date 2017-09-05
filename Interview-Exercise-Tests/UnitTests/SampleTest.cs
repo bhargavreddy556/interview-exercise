@@ -1,6 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 using Rhino.Mocks;
+using System.IO;
 
 namespace Interview_Exercise_Tests.UnitTests
 {
@@ -20,6 +21,8 @@ namespace Interview_Exercise_Tests.UnitTests
             {
                 Assert.That(_actualResult, Is.True);
             }
+
+          
         }
 
         public class When_testing_a_class_with_a_dependency : TestFixtureBase
